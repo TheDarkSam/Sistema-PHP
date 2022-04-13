@@ -1,5 +1,5 @@
-# sistemaTheForense
+# Sistema PHP
 
-Criar pasta arquivos (documentation, prazoRetencao)
+Criar pasta arquivos
 
 Editar o tamanho de upload via POST no PHP post_max_size e upload_max
