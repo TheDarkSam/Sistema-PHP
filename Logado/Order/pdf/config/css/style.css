@@ -1,0 +1,73 @@
+.header {
+  margin-top: -34px;
+}
+
+.footer {
+  margin-bottom: -34px;
+  margin-left: -37px;
+  margin-right: -37px;
+}
+
+body {
+  font-family: Calibri;
+  font-size: 11pt;
+}
+
+div.container {
+	margin-right: 3cm;
+  margin-left: 3cm;
+}
+
+p {
+  line-height: 17px;
+}
+
+ul {
+  margin: 0 0 0 4em;
+  padding: 0;
+  vertical-align: middle;
+}
+
+ul li {
+  text-indent: 3em;
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.indentacao {
+  text-indent: 4em;
+}
+
+.tabela {
+  border: 2px solid black;
+  text-align: center;
+}
+
+.tabela .td100 {
+  width: 600px;
+}
+
+.indent {
+  text-indent: 4em;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.pColado {
+  line-height: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}

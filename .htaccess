@@ -1,0 +1,18 @@
+# Forçar uso do htpps
+RewriteEngine On
+# RewriteCond %{HTTPS} !=on
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Retira php da URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+# Bloquear listagem de diretorios
+Options All -Indexes
+IndexIgnore *.sql
+IndexIgnore *.txt
+
+php_value memory_limit 36M
+php_value post_max_size 36M
+php_value upload_max_filesize 32M

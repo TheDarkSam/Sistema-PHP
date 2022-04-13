@@ -1,0 +1,14 @@
+@media (max-width: 991px) {
+  .sb-sidenav-toggled #layoutSidenav #layoutSidenav_content:before {
+    background: rgba(0, 0, 0, 0);      
+    position: initial;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    z-index: 0;
+    opacity: 0;
+    transition: none;
+  }
+}
